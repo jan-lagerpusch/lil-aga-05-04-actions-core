@@ -13,6 +13,8 @@ async function main() {
     core.notice("This is a notice");
     core.warning("This is a warning");
     core.error("This is an error");
+
+    core.setFailed("Failed! Try again!");
 }
 
 // call the function
